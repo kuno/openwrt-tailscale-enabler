@@ -14,7 +14,7 @@ opkg install libustream-openssl ca-bundle kmod-tun
 3. Run tailscale for the first time:
 ```
 /etc/init.d/tailscale start
-tailscale up --accept-dns=false --advertise-routes=10.0.0.0/24
+tailscale up --accept-dns=false --advertise-routes=192.168.2.0/24
 ```
 
 Both of these commands download the tailscale package to get the binaries to /tmp.
